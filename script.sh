@@ -3,33 +3,33 @@ echo "Press the Left Joystick Button (q) to Start the Game"
 while true; do
   read -rsn1 input
   if [ "$input" = "w" ]; then
-    curl http://localhost:8080/forward
+    curl -s http://localhost:8080/forward
   elif [ "$input" = "s" ]; then
-    curl http://localhost:8080/backward
+    curl -s http://localhost:8080/backward
   elif [ "$input" = "a" ]; then
-    curl http://localhost:8080/left
+    curl -s http://localhost:8080/left
   elif [ "$input" = "d" ]; then
-    curl http://localhost:8080/right
+    curl -s http://localhost:8080/right
   elif [ "$input" = "h" ]; then
-    curl http://localhost:8080/x
+    curl -s http://localhost:8080/x
   elif [ "$input" = "g" ]; then
-    curl http://localhost:8080/y
+    curl -s http://localhost:8080/y
   elif [ "$input" = "k" ]; then
-    curl http://localhost:8080/b
+    curl -s http://localhost:8080/b
   elif [ "$input" = "l" ]; then
-    curl http://localhost:8080/a
+    curl -s http://localhost:8080/a
   elif [ "$input" = "p" ]; then
-    curl http://localhost:8080/rb
+    curl -s http://localhost:8080/rb
   elif [ "$input" = "o" ]; then
-    curl http://localhost:8080/lb
+    curl -s http://localhost:8080/lb
   elif [ "$input" = "r" ]; then
-    curl http://localhost:8080/start
+    curl -s http://localhost:8080/start
   elif [ "$input" = "x" ]; then
-    curl http://localhost:8080/select
+    curl -s http://localhost:8080/select
   elif [ "$input" = "z" ]; then
-    curl http://localhost:8080/rj
+    curl -s http://localhost:8080/rj
   elif [ "$input" = "q" ]; then
-    curl http://localhost:8080/
+    curl -s http://localhost:8080/
 
   fi
   printf "\n"

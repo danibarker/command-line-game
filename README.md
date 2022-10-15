@@ -2,7 +2,8 @@ to start the server
 npm run start
 
 to start front end client
-npm run start-cli
+"npm run start-cli" (mac) or
+"npm run cli" (windows)
 
 WALKTHROUGH :
 

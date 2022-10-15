@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start-backend": "nodemon server.js",
-    "start-cli": "./script.sh"
+    "start-cli": "./script.sh",
+    "cli": "bash ./script.sh"
   },
   "keywords": [],
   "author": "",
